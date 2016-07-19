@@ -1,0 +1,101 @@
+PROGRAM GrilledCheeseSandwich
+    1. verify you have a toaster, 10" pan, 3/4 tbsn butter, 2 slices of bread, cheese of choice
+
+    2. preslice cheese into sections that fit on one slice of bread.  The cheese should be about 1/4" thick.  Place the cheese on a plate for now.
+    
+    3. set toaster to the darkness desired (usually the number 3 works good)
+    
+    4. place bread in toaster and start toaster
+    
+    5. once toasted, take toasted bread and butter each slice with 1/4 tbsn butter
+    
+    6. place pan on stove top burner and turn to medium heat.
+    
+    7. place 1/4" tbsn butter in pan and melt
+
+    8. Once melted, distribute put evenly around the bottom of the pan.
+
+    9. Place a slice of toast in the pan.
+
+    10. Next place the cheese slices on the toast.
+
+    11. Next place other piece of toast on cheese.
+
+    12. Wait until cheese is melted about half way.
+
+    13. Once cheese is half melted, flip toast and cheese.
+
+    14. Finish melting the other half of cheese.
+
+    15. Place toast and cheese onto a plate to be served.
+
+    16. Wait 2 minutes to let cool then serve.
+END
+
+PROGRAM GroceryShopping
+    1. loop through isles 
+
+        2. loop through shopping list and compare shopping list items to what is in that isle.
+
+            3. if item is on shopping list, place quanity of item in cart
+
+            4. else move to next item
+    
+    5.  loop through shopping list, if quantity of item is not in cart ask the store employee if they have missing item(s) in stock.
+        
+        6. if they have the item(s) place in the cart
+
+        7. else if no items in cart place note next to item "I was unable to purchase 'quantity' 'name of item'.  Stock clerk was unable to find item(s)"
+
+        8. else subtract quantity in cart from shopping list quantity and place not next to shopping list item "I still need # 'name of item', because it's not in stock"
+    9. proceed to check out.
+
+    10. if asked "where you able to find everything?", 
+
+        11. loop through notes of shopping list.
+
+            12. if any notes are available, tell the clerk the note.
+    13. pay for what was purchased with cash.
+
+    14. scan receipt for errors - quantity of items, item description is the same as current shopping list
+
+        15 if error notify clerk that there was an error
+
+        16 discuss error with clerk
+
+        17 resolve error issue
+
+    18. leave store
+END
+
+PROGRAM CounterGame
+    count = 1
+    direction = true # if true direction is right else left.
+    friends = bob, joe, susie, wayne, robert, jane, hary, mark, george, kathy
+    person = friends[0]
+
+
+    1. while count is less than 100
+
+        2. person says 'count'"
+
+        3. add 1 to count
+
+        4. if count is evenly divisable by 7, switch direction.
+
+            5. add or subtract 1 from friends index, based on new direction
+
+        7. else if count is divisable by 11 evenly, skip the next person
+
+            8. add or subtract 2 from friends index, based on direction
+
+        9. else add or subtract 1 from friends index based on direction
+
+
+
+
+
+
+
+
+END
