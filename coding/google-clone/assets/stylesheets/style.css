@@ -119,6 +119,17 @@ div, nav {
 
 /*
   ========================================
+  typography
+  ========================================
+*/
+body {
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  color: #fff;
+}
+
+/*
+  ========================================
   Header
   ========================================
 */
@@ -162,4 +173,30 @@ div, nav {
   overflow: hidden;
   position: relative;
   z-index: 0;
+}
+
+/*
+  ========================================
+  Main Content
+  ========================================
+*/
+.logo img{
+  height: 92px;
+  width: 272px;
+  padding-top: 139px;
+  margin: auto;
+  display: block;
+  background-color: white;
+}
+.logo {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: relative;
+}
+.main-container {
+  background-color: #000;
+  opacity: 
+  margin: auto;
 }
