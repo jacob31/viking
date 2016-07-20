@@ -1,6 +1,7 @@
 /* file name: style.css
       author: Ben Silbernagel
      contact: bensilbernagel@gmail.com
+     date:    7/19/2016 - 
      purpose: style for google clone project
 */
 
@@ -118,12 +119,19 @@ body {
   font-size: 13px;
   color: #fff;
 }
-
+/*
+div {
+  border: 1px solid #f2f2f2;
+}
+*/
 /*
   ========================================
   Header
   ========================================
 */
+.primary-header {
+  margin-top: 10;
+}
 .nav {
   text-align: right;
 }
@@ -139,6 +147,7 @@ body {
 }
 .nav a {
   text-decoration: none;
+  line-height: 24px;
 }
 .nav a:hover {
   text-decoration: underline;
@@ -171,17 +180,16 @@ body {
 
 /*
   ========================================
-  Main Content
+  Logo
   ========================================
 */
 .main-container {
-  background-color: #000;
   margin: auto;
 }
 .logo-container img{
   height: 92px;
   width: 272px;
-  padding-top: 139px;
+  padding-top: 138px;
   padding-bottom: 0;
   margin: 0 auto;
   display: block;
@@ -189,23 +197,117 @@ body {
 .logo-container {
   margin: 0;
   width: 100%;
-  height: 231px;
+  height: 230px;
   background-color: #fff;
   position: relative;
   padding-bottom: 0;
 }
-.search-container .search-bar {
+
+/*
+  ========================================
+  Search Form
+  ========================================
+*/
+.search-container {
+  width: 100%;
+}
+
+/*
+  ========================================
+  Text Search Entry
+  ========================================
+*/
+.search-border {
+  display: block;
+  height: 40px;
+  width: 545px;
+  vertical-align: top;
+  background-color: #fff;
+  border: 1px solid #e2e2e2;
+  margin: 30px auto 0 auto;
+  position: relative;
+  z-index: 1;  
+}
+.search {
   border: none;
   padding: 0;
-  margin 0;
-  height: auto;
-  width: 100%;
+  margin-left: 10px;
+  margin-right: 0;
+  height: 38px;
+  width: 495px;
   position: absolute;
   z-index: 6;
   left: 0;
   outline: none;
-  background: url(&quot;data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D&quot;) transparent;
+}
 
+/*
+  ========================================
+  Audio Search Icon
+  ========================================
+*/
+.audio-search-container {
+  z-index: 60;
+  position: absolute;
+  right: 0;
+  vertical-align: middle;
+}
+.search-audio {
+  width: 30px;
+  height: 30px;
+}
+.audio-icon {
+  display: block;
+  height: 23px;
+  width: 17px;
+  z-index: 90;
+  margin: 8px;
+}
+
+/*
+  ========================================
+  Search Buttons
+  ========================================
+*/
+.buttons-container {
+  padding-top: 18px;
+}
+center .buttons {
+  display: none;
+  font-family: arial, sans-serif;
+  overflow: hidden;
+  text-align: center;
+  z-index: 50;
+  height: 34px;
+  position: absolute;
+  left: 412px;
+  margin: 0px;
+  top: 82px;
+  width: 127px;
+  visibility: inherit;
+}
+.buttons input {
+  height: 36px;
+  margin: 2.5;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  border-radius: 1px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+  cursor: default;
+  font-weight: bold;
+  margin: 11px 4px;
+  min-width: 54px;
+  padding: 0 16px;
+  text-align: center;
+}
+#g-search {
+  width: 125.75px;
+}
+#lucky-search{
+  width: 142.58px;
 }
 
 /*
