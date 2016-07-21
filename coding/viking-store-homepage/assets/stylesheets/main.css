@@ -12,19 +12,60 @@
   ========================================
 */
 .header-wrap {
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #444;
+	background-color: #e0e0e0;
+	padding: 0;
+	width: 100%;
+	height: 37px;
 }
-.header-homepage-link a {
+.homepage-link {
+	display: inline-block;
+	position: relative;
+	width: 150px;
+	height: 27px;
+	padding: 5 0 5 60px;
+}
+.homepage-link h1 {
+
+}
+.homepage-link a {
+	line-height: 27px;
 	text-decoration: none;
 	color: #444;
-	line-height: 27px;
 	font-size: 18px;
-	padding-left: 60px;
 }
-.header-homepage-link a:hover {
+.homepage-link a:hover {
 	text-decoration: underline;
 }
-
+.cart-link {
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	width: 200px;
+	height: 27px;
+	padding: 5px 60px 5px 0;
+}
+.cart-link a {
+	line-height: 27px;
+	padding-left: 35px;
+	text-decoration: none;
+	color: #444;
+	font-size: 13px;
+}
+.cart-link a:hover {
+	text-decoration: underline;
+}
+.cart-img img {
+	display: inline-block;
+    width: 27px;
+    height: 27px;
+    left: 0;
+    position: absolute;
+}
+.cart-text {
+	display: inline-block;
+	position: absolute;
+}
 
 /*
   ========================================
@@ -33,4 +74,5 @@
 */
 body {
 	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
 }
