@@ -12,7 +12,7 @@
   ========================================
 */
 .homepage {
-	border-bottom: 1px solid #606060;
+	border-bottom: 2px solid #606060;
 	background-color: #e0e0e0;
 	padding: 0;
 	width: 100%;
@@ -120,6 +120,8 @@
 */
 .slogan {
 	background-color: #606060;
+    border-top: 2px solid #505050;
+    border-bottom: 2px solid #505050;
 	width: 100%;
 }
 .slogan-row {
@@ -154,6 +156,7 @@
 */
 .one-liner {
 	background-color: #ddd;
+	border-bottom: 2px solid #909090;
 	width: 100%;
 }
 .one-liner-row {
