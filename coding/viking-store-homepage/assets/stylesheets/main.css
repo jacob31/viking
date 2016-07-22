@@ -30,7 +30,7 @@
 	text-decoration: none;
 	color: #444;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: normal;
 	letter-spacing: 1.5px;
 }
 .homepage a:hover {
@@ -74,9 +74,9 @@
   ========================================
 */
 .banner {
-	background-image: url(viking_ship_background_medium.jpg);
+	background-image: url(images/viking_ship_background_medium.jpg);
 	background-size: contain;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-position: center;
 	width: auto;
 	z-index: 1;
@@ -94,11 +94,13 @@
 	vertical-align: middle;
 	height: 100%;
 }
-.banner-text h2 {
+.banner-text {
 	position: static;
 	font-size: 96px;
 	font-weight: bolder;
 	letter-spacing: 4px;
+	padding: 75px 25px;
+	background-color: #fff;
 	color: #606060;
 }
 .banner-text div:after {
@@ -113,6 +115,7 @@
 	height: 384px;
 	margin: 0 auto;
 }
+
 /*
   ========================================
   Slogan
@@ -137,8 +140,6 @@
 }
 .slogan-text {
 	margin: auto;
-}
-.slogan-text h3 {
 	font-size: 36px;
 	color: #ddd;
 	font-weight: bolder;
@@ -172,8 +173,6 @@
 }
 .one-liner-text {
 	margin: auto;
-}
-.one-liner-text h4 {
 	text-align: center;
 	color: #606060;
 	font-size: 24px;
@@ -186,6 +185,301 @@
 	height: 0%;
 	content: "";
 }
+
+/*
+  ========================================
+  Inventory
+  ========================================
+*/
+.inv {
+	background-color: #ddd;
+	border-bottom: 2px solid #909090;
+	width: 100%;
+}
+.inv-row {
+	margin: 0 auto;
+	display: table;
+	height: 46px;
+}
+.inv-column{ 
+	white-space: nowrap;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+.inv-text {
+	background-color: #606060;
+	border-top: 2px solid #000;
+	border-right: 2px solid #000;
+	border-left: 2px solid #000;
+	margin: 20px 0 auto 0;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+.inv-text div:after {
+	position: absolute;
+	height: 0%;
+	content: "";
+}
+.inv-img {
+  display: block;
+}
+.inv-img {
+  border: 1px solid #000;
+  border-style: double;
+  border-width: 5px;
+  display: inline-block;
+  position: relative;
+}
+
+/*
+  ========================================
+  Products
+  ========================================
+*/
+.silent-night {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+	width: 250px;
+    height: 200px;
+	z-index: 10;
+	background-image: url(images/axe_silent_night_small.jpg);
+}
+.silent-night span {
+  border: 1px solid #000;
+  background-color: #fff;
+  border-width: 2px;
+  display: inline;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: -5px;
+  padding: 3px 10px;
+  z-index: 20;
+}
+.dainty-daisy {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+	width: 250px;
+    height: 200px;
+	z-index: 10;
+	background-image: url(images/axe_dainty_daisy_small.jpg);
+}
+.dainty-daisy span {
+  border: 1px solid #000;
+  background-color: #fff;
+  border-width: 2px;
+  display: inline;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: -5px;
+  padding: 3px 10px;
+  z-index: 20;
+}
+.double-trouble {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+	width: 250px;
+    height: 200px;
+	z-index: 10;
+	background-image: url(images/axe_double_trouble_small.jpg);
+}
+.double-trouble span {
+  border: 1px solid #000;
+  background-color: #fff;
+  border-width: 2px;
+  display: inline;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: -5px;
+  padding: 3px 10px;
+  z-index: 20;
+}
+.whispering-wind {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+	width: 250px;
+    height: 200px;
+	z-index: 10;
+	background-image: url(images/axe_whispering_wind_small.jpg);
+}
+.whispering-wind span {
+  border: 1px solid #000;
+  background-color: #fff;
+  border-width: 2px;
+  display: inline;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: -5px;
+  padding: 3px 10px;
+  z-index: 20;
+}
+.cunning-cutter {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+	width: 250px;
+    height: 200px;
+	z-index: 10;
+	background-image: url(images/axe_cunning_cutter_small.jpg);
+}
+.cunning-cutter span {
+  border: 1px solid #000;
+  background-color: #fff;
+  border-width: 2px;
+  display: inline;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: -5px;
+  padding: 3px 10px;
+  z-index: 20;
+}
+.the-kingmaker {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #fff;
+	width: 250px;
+    height: 200px;
+	z-index: 10;
+	background-image: url(images/axe_kingmaker_small.jpg);
+}
+.the-kingmaker span {
+  border: 1px solid #000;
+  background-color: #fff;
+  border-width: 2px;
+  display: inline;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: -5px;
+  padding: 3px 10px;
+  z-index: 20;
+}
+/*
+  ========================================
+  Add to cart button
+  ========================================
+*/
+.inv-cart {
+	background-color: #606060;
+	border-right: 2px solid #000;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	margin: 0 auto;
+	padding: 10px 15px;
+	text-align: center;
+	color: #909090;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+.btn {
+	padding: 3px 15px;
+}
+
+/*
+  ========================================
+  Pagination
+  ========================================
+*/
+.slogan {
+	background-color: #606060;
+    border-top: 2px solid #505050;
+    border-bottom: 2px solid #505050;
+	width: 100%;
+}
+.slogan-row {
+	margin: 0 auto;
+	display: table;
+	height: 100px;
+}
+.slogan-column{ 
+	white-space: nowrap;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+.slogan-text {
+	margin: auto;
+	font-size: 36px;
+	color: #ddd;
+	font-weight: bolder;
+	letter-spacing: 3px;
+}
+.slogan-text div:after {
+	position: absolute;
+	height: 0%;
+	content: "";
+}
+/*
+  ========================================
+  One Liner
+  ========================================
+*/
+.pagination {
+	background-color: #ddd;
+	border-bottom: 2px solid #909090;
+	width: 100%;
+}
+.pagination-row {
+	margin: 0 auto;
+	display: table;
+	height: 96px;
+}
+.pagination-column{ 
+	white-space: nowrap;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+}
+ul.pagination-text {
+	display: inline-block;
+	padding: 0;
+	margin: 0; 
+}
+ul.pagination-text li {
+	display: inline;
+}
+ul.pagination-text li a {
+    padding: 8px 16px;
+	float:left;
+	color: black;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-decoration: underline;
+}
+ul.pagination-text li a.active {
+	font-weight: bolder;
+	text-decoration: none;
+}
+.pagination-list div:after {
+	position: absolute;
+	height: 0%;
+	content: "";
+}
+
 /*
   ========================================
   Global settings
