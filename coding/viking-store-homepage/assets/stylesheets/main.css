@@ -5,6 +5,9 @@
      purpose:   Viking E-commerce App Homepage stylesheet
 */
 
+div, section {
+	border: 1px solid yellow;
+}
 
 /*
   ========================================
@@ -99,7 +102,7 @@
 	font-size: 96px;
 	font-weight: bolder;
 	letter-spacing: 4px;
-	padding: 75px 25px;
+	padding: 75px 10px;
 	background-color: #fff;
 	color: #606060;
 }
@@ -193,17 +196,23 @@
 */
 .inv {
 	background-color: #ddd;
-	border-bottom: 2px solid #909090;
 	width: 100%;
 }
+.grid {
+	margin: auto;
+	z-index: 1;
+	text-align: center;
+}
+
 .inv-row {
-	margin: 0 auto;
-	display: table;
-	height: 46px;
+	margin: 10px;
+	display: inline-block;
+	height: 300px;
+
 }
 .inv-column{ 
 	white-space: nowrap;
-	display: table-cell;
+	display: table;
 	vertical-align: middle;
 	height: 100%;
 }
@@ -212,7 +221,7 @@
 	border-top: 2px solid #000;
 	border-right: 2px solid #000;
 	border-left: 2px solid #000;
-	margin: 20px 0 auto 0;
+	margin: 0 0 auto 0;
 	padding: 10px;
 	text-align: center;
 	color: #fff;
