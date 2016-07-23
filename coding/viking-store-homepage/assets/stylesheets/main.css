@@ -5,30 +5,26 @@
      purpose:   Viking E-commerce App Homepage stylesheet
 */
 
-div, section {
-	border: 1px solid yellow;
-}
-
 /*
   ========================================
   Header
   ========================================
 */
-.homepage {
+.primary-nav {
 	border-bottom: 2px solid #606060;
 	background-color: #e0e0e0;
 	padding: 0;
 	width: 100%;
 	height: 46px;
 }
-.homepage-text {
+.primary-nav-text {
 	display: inline-block;
 	position: relative;
 	width: 150px;
 	height: 27px;
 	padding: 5 0 5 60px;
 }
-.homepage a {
+.primary-nav a {
 	line-height: 27px;
 	text-decoration: none;
 	color: #444;
@@ -36,7 +32,7 @@ div, section {
 	font-weight: normal;
 	letter-spacing: 1.5px;
 }
-.homepage a:hover {
+.primary-nav a:hover {
 	text-decoration: underline;
 }
 .cart {
@@ -489,6 +485,67 @@ ul.pagination-text li a.active {
 	content: "";
 }
 
+/*
+  ========================================
+  Footer
+  ========================================
+*/
+
+.footer-nav {
+	margin: 0 auto;
+	background-color: #606060;
+}
+.footer-title {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #e0e0e0;
+}
+.phone {
+	margin: 0 auto;
+	display: block;
+	width: auto;
+	text-align: center;
+}
+img.phone-img {
+	display: inline-block;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+}
+.phone-text {
+    display: inline-block;
+	font-weight: normal;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	color: #e0e0e0;
+	font-size: 13px;
+	line-height: 27px;
+	padding-left: 40px;
+}
+.email {
+	margin: 0 auto;
+	display: block;
+	width: auto;
+	text-align: center;
+}
+img.email-img {
+	display: inline-block;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+}
+.email-text {
+    display: inline-block;
+	font-weight: normal;
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	color: #e0e0e0;
+	font-size: 13px;
+	line-height: 27px;
+	padding-left: 40px;
+	padding-bottom: 30px;
+}
 /*
   ========================================
   Global settings
